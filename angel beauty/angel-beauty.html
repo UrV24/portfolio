@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: raleway,sans-serif;
+    /* border: 1px solid ; */
+}
+.taskbar
+{
+    background: #ec5598;
+    color: #fff;
+    padding-left: 700px;
+}
+img
+{
+    position: absolute;
+    top: 45px;
+    left: 55px;
+}
+.logo
+{
+    height: 160px;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,.1);
+}
+.menubar
+{
+    height: 109px;
+    /* width: 100%; */
+    /* display: flex; */
+    box-shadow: 0 1px 5px rgba(0,0,0,.1);
+    position: relative;
+}
+.blank
+{
+    width: 40%;
+}
+.navbar
+{
+    width: 60%;
+    border: 2px solid blue;
+}
+li
+{
+    border: 1px solid;
+    list-style: none;
+    /* padding: 50px 20px; */
+}
+a
+{
+    text-decoration: none;
+}
+.menu1,.menu2,.menu3,.menu4,.menu5
+{
+    display: inline;
+}
+.urv1,.urv2,.urv3,.urv4,.urv5 
+{
+    width: 300px;
+    color: #000;
+}
+
+.urv1,.urv2,.urv3,.urv4
+{
+    position: absolute;
+    top: 60px;
+    left: 610px;
+    /* opacity: 0; */
+    transition: 1s;
+}
+.urv2
+{
+    position: absolute;
+    top: 60px;
+    left: 720px;
+}
+.urv3
+{
+    position: absolute;
+    top: 60px;
+    left: 850px;
+}
+.urv4
+{
+    position: absolute;
+    top: 60px;
+    left: 955px;
+}
+.urv5,.urv6
+{
+    /* opacity: 0; */
+    transition: 1s;
+}
+.dropdown
+{
+    border: 1px solid;
+    height: 50px;
+    background: white;
+    text-align: center;
+    font-size: 13px;
+    z-index: 1;
+}
+/* .menu1:hover .urv1,.menu2:hover .urv2,.menu3:hover .urv3,.menu4:hover .urv4
+{
+    opacity: 1;
+} */
+.dropdown4
+{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+.dropdown5
+{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+/* .d1:hover .urv5,.d2:hover .urv6
+{
+    opacity: 1;
+}
+.i
+{
+    height: 40px;
+    width: 40px;
+    background: #eaeaea;
+    position: absolute;
+    top: 30px;
+    left: 1200px;
+    text-align: center;
+    line-height: 40px;
+}
+.menu1:hover a,.menu2:hover a,.menu3:hover a,.menu4:hover a,.menu5:hover a
+{
+    color: #ec5598;
+}*/
+    </style>
+</head>
+<body>
+
+
+    <div class="main">
+
+        <div class="taskbar">
+            <i class="fa fa-envelope"></i> &nbsp; mail@gmail.com &nbsp;&nbsp;
+            <i class="fa fa-phone"></i> +88 0167234
+            <div class="logo"><img src="images/logo.png" alt="" height="50%" width="50%"></div>
+        </div>
+
+        <!-- navbar start -->
+
+
+        <div class="menubar">
+            <div class="blank"></div>
+            <div class="navbar">
+                <ul>
+                    <li class="menu1 h"><a href="">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="urv1">
+                            <li class="dropdown"><a href="">Home V-1</a></li>
+                            <li class="dropdown"><a href="">Home V-2</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li class="menu2 s"><a href="">SERVICE <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="urv2">
+                            <li class="dropdown"><a href="">Services</a></li>
+                            <li class="dropdown"><a href="">Service Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu3 s1"><a href="">SHOP <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="urv3">
+                            <li class="dropdown"><a href="">Shop</a></li>
+                            <li class="dropdown"><a href="">Product</a></li>
+                            <li class="dropdown"><a href="">My Account</a></li>
+                            <li class="dropdown"><a href="">Cart</a></li>
+                            <li class="dropdown"><a href="">Check Out</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu4 p"><a href="">PAGES <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="urv4">
+                            <li class="dropdown"><a href="">About Us</a></li>
+                            <li class="dropdown"><a href="">Appointment Form</a></li>
+                            <li class="dropdown"><a href="">Booking Calender</a></li>
+                            <li class="dropdown"><a href="">Contact Us</a></li>
+                            <li class="dropdown d1"><a href="">Team</a>
+                                <ul class="urv5">
+                                    <li class="dropdown4"><a href="">Team Members</a></li>
+                                    <li class="dropdown4"><a href="">Team Member Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown d2"><a href="">Gallery</a>
+                                <ul class="urv6">
+                                    <li class="dropdown5"><a href="">Gallery 4 Columns</a></li>
+                                    <li class="dropdown5"><a href="">Gallery 3 Columns</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu5 b"><a href="">BLOG</a></li>
+                </ul> 
+                
+                <div class="i">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar end -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+@media(max-width:900px)
+{
+    .taskbar
+    {
+        background: #ec5598;
+        color: #000;
+        padding-left: 500px;
+    }
+    .logo
+    {
+        height: 109px;
+        position: absolute;
+        top: 37px;
+        left: 0;
+    }
+
+}

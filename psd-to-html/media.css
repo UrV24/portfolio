@@ -1,0 +1,24 @@
+@media(max-width:750px)
+{
+    .plate1
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .down
+    {
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    .main_dot .dot1_img
+    {
+        width: 100%;
+    }
+    .inner_quote
+    {
+        width: 700px;
+    }
+    .inner_cuisine
+    {
+        width: 400px;
+    }
+}

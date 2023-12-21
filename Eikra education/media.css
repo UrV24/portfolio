@@ -1,0 +1,379 @@
+@media(max-width:1500px)
+{
+    .text
+    {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+    }
+    .person
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+    .count
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media(max-width:1000px)
+{
+    .remove
+    {
+        display: none;
+    }
+    .join
+    {
+        grid-template-columns: 2fr;
+        margin: 70px;
+    }
+}
+@media(max-width:1428px)
+{
+   
+    
+    .person
+    {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+        padding-left: 0;
+    }
+    .person3,.person4
+    {
+        margin-top: 50px;
+    }
+    .remove
+    {
+        display: none;
+    }
+    .join
+    {
+        grid-template-columns: 2fr 1fr;
+        margin: 5%;
+    }
+    .sc-h2
+    {
+        margin-left: 0;
+    }
+    .sc1
+    {
+        margin-left: 0;
+        padding: 0 0;
+    }
+    .summer-course-1
+    {
+        margin-top: 0;
+    }
+    .company
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px;
+    }
+    .company4
+    {
+        display: none;
+    }
+    .book-main
+    {
+        padding: 50px;
+    }
+    .books
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .book1,.book2,.book3
+    {
+        margin: 0;
+        padding: 50px;
+    }
+    .footer-main
+    {
+        padding: 50px;
+    }
+    .footer-4
+    {
+        display: none;
+    }
+    .footer-logo
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width:900px)
+{
+    
+    .preloader
+    {
+        padding-left: 350px;
+    }
+    .preloader img
+    {
+        position: absolute;
+        top: 300px;
+        left: 350px;
+    }
+    .header
+    {
+        background: white;
+        height: 70px;
+    }
+    .logo
+    {
+        height: 70px;
+        background-image: url(images/logo-dark.png);
+        background-repeat: no-repeat;
+        background-position: 20px;
+    }
+    ul
+    {
+        display: none;
+    }
+    .slider
+    {
+        height: 500px;
+        background-size: cover;
+    }
+    .text
+    {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+    }
+    .text p
+    {
+        font-size: 13px;
+    }
+    .inner
+    {
+        width: 100%
+    }
+    .up
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .up h1
+    {
+        font-size:40px;
+    }
+    .up p
+    {
+        margin-left: 0;
+        padding: 0;
+    }
+    .down
+    {
+        width: 100%;
+    }
+    .down1,.down2,.down3
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .innercourses
+    {
+        grid-template-columns: 1fr;
+    }
+    .right
+    {
+        padding: 50px;
+    }
+    .courses h2
+    {
+        position: absolute;
+        left: 120px;
+        margin-top: 40px;
+    }
+    .head h2
+    {
+        margin-left: 70px;
+    }
+    .person
+    {
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+    .person3,.person4
+    {
+        margin-top: 50px;
+    }
+    .campus
+    {
+        padding: 100px;
+    }
+     
+    .summer-course
+    {
+        grid-template-columns: 1fr;
+    }
+    .sc-h2
+    {
+        margin-left: 70px;
+    }
+    .upcoming-event
+    {
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    .count
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .join
+    {
+        grid-template-columns: 2fr;
+        margin: 20px;
+    }
+    .company
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .company4
+    {
+        display: block;
+    }
+    .company3,.company4
+    {
+        margin-top: 50px;
+    }
+    .books
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-main
+    {
+        margin-top: 50px;
+        padding: 50px;
+    }
+    .footer-logo
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-4
+    {
+        display: block;
+    }
+    
+}
+@media(max-width:750px)
+{
+    .text
+    {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+    }
+    .down
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+    .down1,.down2,.down3
+    {
+        height: 300px;
+        width: 100%;
+    }
+    .right
+    {
+        grid-template-columns: 1fr;
+        padding-top: 0;
+    }
+    .innercourses
+    {
+        padding: 0;
+        padding-top: 100px;
+    }
+    .courses h2
+    {
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+    }
+    .person
+    {
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+    .head h2
+    {
+        margin-left: 20px;
+    }
+    .person3,.person4,.person2
+    {
+        margin-top: 45px;
+    }
+    .head .btn
+    {
+        display: flex;
+        position: absolute;
+        right: 70px;
+        gap: 10px;
+    }
+    .watch
+    {
+        width: 100%;
+    }
+    .campus
+    {
+        padding: 30px;
+    }
+    .sc-h2
+    {
+        margin-left: 20px;
+    }
+    .sc1
+    {
+        padding: 20px;
+        margin-left: 0;
+    }
+    .uc
+    {
+        margin-left: 20px;
+    }
+    .summer-course .button
+    {
+        margin-left: 20px;
+    }
+    .company
+    {
+        padding: 0;
+    }
+
+    .count
+    {
+        grid-template-columns: 1fr;
+    }
+    .books
+    {
+        grid-template-columns: 1fr;
+        padding: 50px 160px;
+    }
+    .footer-logo
+    {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+@media(max-width:550px)
+{
+    .company
+    {
+        grid-template-columns: 1fr;
+        padding: 50px;
+    }
+    .company2,.company3
+    {
+        margin-top: 50px;
+    }
+    
+}
